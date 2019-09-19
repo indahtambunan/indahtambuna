@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>
+			FORM PENDAFTARAN
+		</title>
+		<style type="text/css">
+			body {
+			margin:25px;
+			widht:500px;
+			padding:10px;
+			}
+			.header {
+				width:100%;
+				height:40px;
+				background-color:blue;
+				color:white;
+				font-size:24px;
+				text-align:center;
+				font-weight:bold;
+				line-height:40px;
+				}
+			.content {
+				width:auto;
+				height:auto;
+				border:1px solid;
+				padding-top:50px;
+				padding-bottom:50px;
+				background-color:aqua;
+				}
+			.footer {
+				height : 40px;
+				background-color:blue;
+				color:white;
+				font-size:20px;
+				text-align:center;
+				text-weight:bold;
+				line-height:40px;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			FORM PENDAFTARAN
+		</div>
+		
+		<div class="content">
+			<center>isi data anda dibawah ini!!! </center>
+			<table align="center">
+				<tr>
+					<td>Nama</td>
+					<td>:</td>
+					<td><input type='text' name='nama'></td>
+				</tr>
+				<tr>
+					<td>NIM</td>
+					<td>:</td>
+					<td><input type='text' name='NIM'></td>
+				</tr>
+				<tr>
+					<td>Alamat</td>
+					<td>:</td>
+					<td><input type='text' name='alamat'></td>
+				</tr>
+					<td>Email</td>
+					<td>:</td>
+					<td><input type='text' name='Email'></td>
+				</tr>
+				<tr>
+					<td>password</td>
+					<td>:</td>
+					<td><input type='password' name='password'></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="gender" value="male" checked> Male</td>
+					<td><input type="radio" name="gender" value="female"> Female</td>
+					<td><input type="radio" name="gender" value="other"> Other</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td><input type='submit' value='DAFTAR'></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="footer">
+			Copyright &copy; indah luwisari tambunan/182410101108
+			<img src="indah.jpg" alt="akuuuu" style="float:right;width:50px;height:50px;">
+		</div>
+		
+		
+	</body>
+</html>
